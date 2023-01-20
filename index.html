@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quartz | Effective User Feedback Management: Tool for Collecting, Analyzing and Acting on User Feedback</title>
+    <meta name="description" content="Discover the best tool and techniques for collecting, analyzing and acting on user feedback to improve user experience. Learn how to streamline the feedback process, and transform feedback into actionable insights to optimize the user experience.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/icons.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="zq-header">
+        <div class="zq-logo-wrap">
+            <!-- <div class="zq-logo" id="zqLogo"><img src="./assets/image/quartz-mono-icon.png" class="zq-logo-icon"></div> -->
+			<label class="zq-logo-name" id="zqLogoName" for="zqLogo">Quartz</label>    
+		</div>
+        <div class="zq-user-nav-wrap">
+            <div class="zq-user-nav">
+                <div class="zq-user-name">
+                    ui
+                </div>
+            </div>
+        </div>
+       </div>
+    </header>
+    <nav class="zq-sidenav">
+        <ul class="zq-nav">
+            <li class="zq-nav-item" id="zqFeedbacks">
+                <span class="zc-li-outline ui-3-chat-46"></span>
+                <label for="zqFeedbacks">Feedbacks</label>
+            </li>
+            <li class="zq-nav-item" id="zqDepartments">
+               <span class="zc-li-outline business-hierarchy-53"></span>
+               <label for="zqDepartments">Departments</label>
+            </li>
+            <li class="zq-nav-item" id="zqUsers">
+                <span class="zc-li-outline users"></span>
+                <label for="zqUsers">Users</label>
+            </li>
+            <li class="zq-nav-item active" id="zqSettings">
+                <span class="zc-li-outline loader-gear"></span>
+                <label for="zqSettings">Setting</label>
+            </li>
+            <li class="zq-nav-item" id="zqAnalytics">
+                <span class="zc-li-outline ui-2-alert-circle"></span>
+                <label for="zqAnalytics">Analytics</label>
+            </li>
+            <span class="zq-nav-glider"></span>
+        </ul>
+    </nav>
+
+
+
+    <main class="zq-main">
+
+        <section class="zq-feedbacks zq-page" id="zqFeedbacksSection">
+            <header class="zq-page-header">
+                <h2 class="zq-page-title">feedbacks</h2>
+                <button class="zq-btn zq-btn-input zq-ml-auto">all departments <i class="zv zv-arrow-down"></i></button>
+                <button class="zq-btn zq-btn-input"><i class="zc-li-outline ui-1-calendar-grid-61"></i>all time <i class="zv zv-arrow-down zq-ml-auto"></i></button>
+                <button class="zq-btn zq-btn-action"><i class="zc-li-outline ui-1-preferences-circle"></i></button>
+            </header>
+            <div class="zq-page-content">
+                <table class="zq-table" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th>
+                                subject <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                email address <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                department <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                reported date <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">Team please check the alignment here</h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-mac-icon"></i>mac OS 14.22.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-safari-icon"></i>safari 9.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">Grid view is not changing i have created this page under </h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-win-icon"></i>windows 11</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-chrome-icon"></i>chrome 209.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">I am unable to create form here can you guys pls check </h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-win-icon"></i>windows 11</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-chrome-icon"></i>chrome 209.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">Team please check the alignment here</h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-mac-icon"></i>mac OS 14.22.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-safari-icon"></i>safari 9.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">Grid view is not changing i have created this page under </h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-win-icon"></i>windows 11</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-chrome-icon"></i>chrome 209.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">I am unable to create form here can you guys pls check </h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-win-icon"></i>windows 11</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-chrome-icon"></i>chrome 209.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">Team please check the alignment here</h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-mac-icon"></i>mac OS 14.22.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-safari-icon"></i>safari 9.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">Grid view is not changing i have created this page under </h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-win-icon"></i>windows 11</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-chrome-icon"></i>chrome 209.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-table-feedback">
+                                    <h3 class="zq-table-feedback-title">I am unable to create form here can you guys pls check </h3>
+                                    <div class="zq-table-feedback-meta">
+                                        <ul>
+                                            <li><i class="zq-meta-icon" data-value="zq-win-icon"></i>windows 11</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-chrome-icon"></i>chrome 209.1.1.2</li>
+                                            <li><i class="zq-meta-icon" data-value="zq-screen-icon"></i>1782x876</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                adrian_katong@gmail.com
+                            </td>
+                            <td>Zoho Creator</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td class="zq-action-col">
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-play-btn zq-tooltip-link" data-tooltip="Play Feedback"><i class="zc-li-outline media-1-button-play"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-desk-btn zq-tooltip-link" data-tooltip="View on Desk"><i class="zq-desk-icon"></i></button>
+                                    <button class="zq-btn zq-btn-action zq-copylink-btn zq-tooltip-link" data-tooltip="Copy link"><i class="zc-li-outline ui-2-link-69"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <section class="zq-departments zq-page" id="zqDepartmentsSection">
+            <header class="zq-page-header">
+                <h2 class="zq-page-title">departments</h2>
+                <button class="zq-btn zq-btn-action zq-ml-auto"><i class="zc-li-outline ui-1-preferences-circle"></i></button>
+                <span class="zq-btn-divider"></span>
+                <button class="zq-btn zq-btn-primary"><i class="zc-li-outline ui-1-simple-add"></i> add department </button>
+            </header>
+            <div class="zq-page-content">
+                <table class="zq-table" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th class="zq-cell-40">
+                                department name <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                number of users <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                created by <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                created date <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">C</span>Zoho Creator
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">m</span>Zoho Mail
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">C</span>Zoho Creator
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">C</span>Zoho Creator
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">C</span>Zoho Creator
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">C</span>Zoho Creator
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">C</span>Zoho Creator
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">C</span>Zoho Creator
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">C</span>Zoho Creator
+                                </div>
+                            </td>
+                            <td>
+                                143
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        
+
+        <section class="zq-users zq-page" id="zqUsersSection">
+            <header class="zq-page-header">
+                <h2 class="zq-page-title">users</h2>
+                <button class="zq-btn zq-btn-action zq-ml-auto"><i class="zc-li-outline ui-1-preferences-circle"></i></button>
+                <span class="zq-btn-divider"></span>
+                <button class="zq-btn zq-btn-primary"><i class="zc-li-outline ui-1-simple-add"></i> add user </button>
+            </header>
+            <div class="zq-page-content">
+                <table class="zq-table" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th class="zq-cell-40">
+                                user <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                email address <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                organization role <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                status <i class="zc-li-outline arrows-2-select-83"></i>
+                            </th>
+                            <th>
+                                
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="zq-badge-wrap">
+                                    <span class="zq-badge-icon">A</span>Alana Wicaksono
+                                </div>
+                            </td>
+                            <td>adrian_katong@gmail.com</td>
+                            <td>
+                                <span class="zq-role-badge">admin</span>
+                            </td>
+                            <td>
+                                22 Dec 2022
+                            </td>
+                            <td>
+                                <div class="zq-action-btns-wrap">
+                                    <button class="zq-btn zq-btn-action zq-delete-btn zq-tooltip-link" data-tooltip="Delete Department"><i class="zc-li-outline ui-1-trash-simple"></i></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+
+        <section class="zq-settings zq-page active" id="zqSettingsSection">
+            <article class="zq-card">
+                <header class="zq-card-header"><h2 class="zq-card-title">Settings</h2></header>
+                <div class="zq-card-body">
+                    <form action="" class="zq-form">
+                        <div class="zq-form-control zq-field-xl">
+                            <label for="orgName">Organization Name</label>
+                            <div class="zq-input-group">
+                                <input class="zq-form-input" type="text" name="orgName" id="orgName">
+                                <span class="zq-filed-indicate zq-check">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="zq-form-control zq-field-xl">
+                            <label for="orgKey">Organization API Key</label>
+                            <div class="zq-input-group">
+                                <input class="zq-form-input" type="text" value="zQsgg2o6h2q0oRJiezIC39VPJa3xUlJG" name="orgKey" id="orgKey">
+                                <span class="zq-filed-indicate zq-copy-btn">
+                                </span>
+                            </div>
+                        </div>
+                        <button class="zq-btn zq-btn-primary">Save</button>
+                    </form>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/js/user-interface.js"></script>
+</body>
+</html>
